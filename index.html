@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Chefs-à-Porter</title>
+      <!-- style -->
+      <link rel="stylesheet" href="assets/css/style.css"  type="text/css"/>
+      <link rel="stylesheet" href="assets/css/responsive.css" type="text/css"/>
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" type="text/css"/>
+      <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css"/>
+      <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" type="text/css"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/css/bootstrap-select.min.css">
+      <link href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
+      <!-- Include Bootstrap DateTimePicker CDN -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/timepicker@1.14.0/jquery.timepicker.min.css">
+   </head>
+   <body>
+      <header class="home-header">
+         <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
+            <div class="container">
+               <a class="navbar-brand" href="/"><img src="assets/images/Logo.png" alt="Logo" class="logo"></a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar2">
+                  <div class="offcanvas-header">
+                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 main-bar">
+                        <li class="nav-item active" aria-current="page"><a href="/" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="/privee.html" class="nav-link">Privee</a></li>
+                        <li class="nav-item"><a href="/supperclub.html" class="nav-link">Supper Clubs</a></li>
+                        <li class="nav-item"><a href="/Our-Chefs.html" class="nav-link">Our Chefs</a></li>
+                        <li class="nav-item"><a href="/corporatebooking.html" class="nav-link">Corporate Bookings</a></li>
+                        <li class="nav-item"><a href="/becomeapatron.html" class="nav-link">Become a Patron</a></li>
+                        <li class="nav-item"><a href="/gift-cards.html" class="nav-link">Gift Cards</a></li>
+                        <li class="nav-item">
+                           <a class="nav-link" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Join Us <i class="bi bi-chevron-up"></i></a>
+                           <ul class="collapse" id="collapseExample">
+                              <li><a href="/joinchef.html" class="nav-link">Chef</a></li>
+                              <li><a href="/becomepartner.html" class="nav-link">Sponsor Partner</a></li>
+                              <li><a href="javascript:void(0);" class="nav-link">Vendor<br/>(decor, venue, crockery, cultery, produce, etc</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item"><a href="/about-us.html" class="nav-link">About us</a></li>
+                        <li class="nav-item"><a href="/contact-us.html" class="nav-link">Contact</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <header class="desktop-header">
+         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+               <a class="navbar-brand" href="/"><img src="assets/images/Logo.png" alt="Logo" class="logo"></a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <li class="nav-item"><a class="nav-link" aria-current="page" href="/privee.html">Privee</a></li>
+                     <li class="nav-item"><a class="nav-link" href="/supperclub.html">Supper Clubs</a></li>
+                     <li class="nav-item"><a class="nav-link" href="./blog.html">Our  Chefs</a></li>
+                     <li class="nav-item"><a class="nav-link" href="/contact-us.html">Contact</a></li>
+                     <li class="nav-item"><a class="nav-link" href="/about-us.html">About Us</a></li>
+                  </ul>
+                  <ul class="navbar-nav mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <div id="search">
+                           <form class="searchbar">
+                              <input type="search" placeholder="Search" name="search" class="searchbar-input" onkeyup="buttonUp();" required>
+                              <input type="submit" class="searchbar-submit" value="">
+                              <span class="searchbar-icon"><img src="assets/images/search.png" alt="" class="top-search"><i class="bi bi-x-lg" aria-hidden="true"></i></span>
+                           </form>
+                        </div>
+                     </li>
+                     <li><a href="javascript:void(0);"><img src="assets/images/tel.png" alt="" class="top-tel"></a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <section class="home-banner">
+         <div class="container-fluid">
+            <div class="row d-flex justify-content-center">
+               <div class="col-lg-12 col-md-12 col-sm-12">
+                  <img src="assets/images/homebanner.png" alt="homebanner" class="home-img"/>
+                  <div class="pe-fo-exp">
+                     <h4>The Hottest Chef’s Tables in Town.</h4>
+                     <form>
+                        <div class="form-row">
+                           <div class="form-group col-lg-2">
+                              <label for="where">Where</label>
+                              <select class="selectpicker my-select" aria-label="Default select example" id="where" required>
+                                 <option value="1">Mumbai</option>
+                                 <option value="2">Delhi</option>
+                                 <option value="3">Goa</option>
+                                 <option value="4">Banglore</option>
+                                 <option value="5">Hydrabad</option>
+                              </select>
+                           </div>
+                           <div class="form-group col-lg-2">
+                              <label for="indate">On</label>
+                              <input type="text" class="form-control" id="indate"/>
+                           </div>
+                           <div class="form-group col-lg-2">
+                              <label for="time">Time</label>
+                              <select class="selectpicker my-select" aria-label="Default select example" id="time" required>
+                                 <option value="1">Lunch</option>
+                                 <option value="2">Dinner</option>
+                                 <option value="3">Breakfast</option>
+                              </select>
+                           </div>
+                           <div class="form-group col-lg-2">
+                              <label for="diners">Diners</label>
+                              <select class="selectpicker my-select" aria-label="Default select example" id="diners" required>
+                                 <option value="1">1</option>
+                                 <option value="2">2</option>
+                                 <option value="3">3</option>
+                              </select>
+                           </div>
+                           <div class="form-group col-lg-2">
+                              <button type="submit" class="btn btn-primary">Search</button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="arrows"  style="display: none;">
+                     <h4 class="home-text">The Hottest Chef’s Tables in Town.</h4>
+                     <img src="assets/images/down-arrow.png" alt="down" class="down-arrow-op">
+                     <img src="assets/images/down-arrow.png" alt="down" class="down-arrow">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="clubs">
+         <div class="container-fluid">
+            <div class="row d-flex justify-content-center">
+               <div class="col-4">
+                  <div class="card card1">
+                     <img src="assets/images/Privee.png" alt="Privee" class="card-image">
+                     <div class="card-body">
+                        <h5 class="card-title">Privee</h5>
+                     </div>
+                     <div class="card-overlay">
+                        <div class="card-overlay-inner">
+                           <h5 class="card-title">Privee</h5>
+                           <p>Dine in the comfort of your home with friends and family</p>
+                           <a href="/privee.html" class="card-link">View Experiences</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-4">
+                  <div class="card">
+                     <img src="assets/images/Supper.png" alt="Supper Club" class="card-image">
+                     <div class="card-body">
+                        <h5 class="card-title">Supper Club</h5>
+                     </div>
+                     <div class="card-overlay">
+                        <div class="card-overlay-inner">
+                           <h5 class="card-title">Supper Club</h5>
+                           <p>Experience a shared meal at bespoke locations</p>
+                           <a href="/supper-club.html" class="card-link">Book a Supper Club</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="privee-desktop">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-8">
+                  <video autoplay muted loop>
+                     <source src="assets/images/privee.mp4" type="video/mp4">
+                  </video>
+               </div>
+               <div class="col-lg-4">
+                  <h4 class="card-title">Privee</h4>
+                  <p>Dine in the comfort of your home with friends and family</p>
+                  <a href="/privee.html" class="card-link">View Experiences</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="supper-desktop">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-4">
+                  <h4 class="card-title">Supper Club</h4>
+                  <p>Experience a shared meal at bespoke locations</p>
+                  <a href="/supper-club.html" class="card-link">Book a Supper Club</a>
+               </div>
+               <div class="col-lg-8">
+                  <video autoplay muted loop>
+                     <source src="assets/images/supper.mp4" type="video/mp4">
+                  </video>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="con-browsing">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-12 title">
+                  <h4>Continue Browsing</h4>
+                  <span>Chef’s you’ve checked out previously</span>
+               </div>
+               <div class="col-lg-12">
+                  <div class="con-browsing-slider owl-carousel owl-theme">
+                     <div class="item">
+                        <a href="javascript:void(0);">
+                           <img src="assets/images/chef1.png" alt="Chef Image" class="chef-image" />
+                           <div class="chef-info">
+                              <div class="chef-details">
+                                 <h5>Madhav Dayal</h5>
+                              </div>
+                              <div class="chef-cusions">
+                                 <span>Thai</span>
+                                 <span>Japanese</span>
+                                 <span>Parsi</span>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="item">
+                        <a href="javascript:void(0);">
+                           <img src="assets/images/chef2.png" alt="Chef Image" class="chef-image" />
+                           <div class="chef-rebook">
+                              <img src="assets/images/rebook.png" alt="Chef Rebook" class="rebook"/>Rebook
+                           </div>
+                           <div class="chef-info">
+                              <div class="chef-details">
+                                 <h5>Kyoumars Freeman</h5>
+                              </div>
+                              <div class="chef-cusions">
+                                 <span>Persian</span>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="item">
+                        <a href="javascript:void(0);">
+                           <img src="assets/images/chef3.png" alt="Chef Image" class="chef-image" />
+                           <div class="chef-info">
+                              <div class="chef-details">
+                                 <h5>Mako Ravindran</h5>
+                              </div>
+                              <div class="chef-cusions">
+                                 <span>French</span>
+                                 <span>Italian</span>
+                                 <span>Indian</span>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="item">
+                        <a href="javascript:void(0);">
+                           <img src="assets/images/chef2.png" alt="Chef Image" class="chef-image" />
+                           <div class="chef-rebook">
+                              <img src="assets/images/rebook.png" alt="Chef Rebook" class="rebook"/>Rebook
+                           </div>
+                           <div class="chef-info">
+                              <div class="chef-details">
+                                 <h5>Kyoumars Freeman</h5>
+                              </div>
+                              <div class="chef-cusions">
+                                 <span>Persian</span>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="up-supper-club">
+         <div class="container-fluid">
+            <div class="row align-items-center">
+               <div class="col-lg-10 title">
+                  <h4>Upcoming Supper Clubs</h4>
+                  <span>Step out & enjoy a curated meal prepared by top chefs</span>
+               </div>
+               <div class="col-lg-2">
+                  <a href="javascript:void(0);" class="view-all">View All</a>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12 grids-slider owl-carousel owl-theme">
+                  <div class="supper-blog">
+                     <a href="javascript:void(0);">
+                        <img src="assets/images/supper-1.png" alt="The Big Fat Parsi Blowout" class="supper-img">
+                        <div class="chef-rebook">
+                           <img src="assets/images/trending.png" alt="Trending" class="rebook"/>Trending
+                        </div>
+                        <div class="supper-info">
+                           <h5>The Big Fat Parsi Blowout</h5>
+                           <div class="supper-chef-details">
+                              <span><img src="assets/images/chef-cap.png" alt="chef cap">Chef Anna Miocher</span>
+                              <span><img src="assets/images/date.png" alt="date">April 9 | 7.30 PM - 10 PM</span>
+                              <span><img src="assets/images/tag.png" alt="Rates"><b>₹2500</b>/per diner</span>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="supper-blog">
+                     <a href="javascript:void(0);">
+                        <img src="assets/images/supper-2.png" alt="The Big Fat Parsi Blowout" class="supper-img">
+                        <div class="supper-info">
+                           <h5>The Big Fat Parsi Blowout</h5>
+                           <div class="supper-chef-details">
+                              <span><img src="assets/images/chef-cap.png" alt="chef cap">Chef Anna Miocher</span>
+                              <span><img src="assets/images/date.png" alt="date">April 9 | 7.30 PM - 10 PM</span>
+                              <span><img src="assets/images/tag.png" alt="Rates"><b>₹2500</b>/per diner</span>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="supper-blog">
+                     <a href="javascript:void(0);">
+                        <img src="assets/images/supper-1.png" alt="The Big Fat Parsi Blowout" class="supper-img">
+                        <div class="supper-info">
+                           <h5>The Big Fat Parsi Blowout</h5>
+                           <div class="supper-chef-details">
+                              <span><img src="assets/images/chef-cap.png" alt="chef cap">Chef Anna Miocher</span>
+                              <span><img src="assets/images/date.png" alt="date">April 9 | 7.30 PM - 10 PM</span>
+                              <span><img src="assets/images/tag.png" alt="Rates"><b>₹2500</b>/per diner</span>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="supper-blog">
+                     <a href="javascript:void(0);">
+                        <img src="assets/images/supper-2.png" alt="The Big Fat Parsi Blowout" class="supper-img">
+                        <div class="chef-rebook">
+                           <img src="assets/images/trending.png" alt="Trending" class="rebook"/>Trending
+                        </div>
+                        <div class="supper-info">
+                           <h5>The Big Fat Parsi Blowout</h5>
+                           <div class="supper-chef-details">
+                              <span><img src="assets/images/chef-cap.png" alt="chef cap">Chef Anna Miocher</span>
+                              <span><img src="assets/images/date.png" alt="date">April 9 | 7.30 PM - 10 PM</span>
+                              <span><img src="assets/images/tag.png" alt="Rates"><b>₹2500</b>/per diner</span>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="supper-blog">
+                     <a href="javascript:void(0);">
+                        <img src="assets/images/supper-2.png" alt="The Big Fat Parsi Blowout" class="supper-img">
+                        <div class="supper-info">
+                           <h5>The Big Fat Parsi Blowout</h5>
+                           <div class="supper-chef-details">
+                              <span><img src="assets/images/chef-cap.png" alt="chef cap">Chef Anna Miocher</span>
+                              <span><img src="assets/images/date.png" alt="date">April 9 | 7.30 PM - 10 PM</span>
+                              <span><img src="assets/images/tag.png" alt="Rates"><b>₹2500</b>/per diner</span>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12 mobile-show">
+                  <a href="javascript:void(0);" class="view-all">View All</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="private-dining">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-10 title">
+                  <h4>Chefs available for private dining this month</h4>
+               </div>
+               <div class="col-lg-2">
+                  <a href="/our-chef.html" class="view-more">View All</a>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12 grids-slider owl-carousel owl-theme">
+                  <div class="item">
+                     <a href="javascript:void(0);">
+                        <img src="assets/images/chef1.png" alt="Chef Image" class="chef-image" />
+                        <div class="chef-info">
+                           <div class="chef-details">
+                              <h5>Madhav Dayal</h5>
+                           </div>
+                           <div class="chef-cusions">
+                              <span>Thai</span>
+                              <span>Japanese</span>
+                              <span>Parsi</span>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="item">
+                     <a href="javascript:void(0);">
+                        <img src="assets/images/chef2.png" alt="Chef Image" class="chef-image" />
+                        <div class="chef-info">
+                           <div class="chef-details">
+                              <h5>Anup Kakati</h5>
+                           </div>
+                           <div class="chef-rebook">
+                              <img src="assets/images/rebook.png" alt="Chef Rebook" class="rebook">Rebook
+                           </div>
+                           <div class="chef-cusions">
+                              <span>Thai</span>
+                              <span>Asian</span>
+                              <span>Indian</span>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="item">
+                     <a href="javascript:void(0);">
+                        <img src="assets/images/chef3.png" alt="Chef Image" class="chef-image" />
+                        <div class="chef-info">
+                           <div class="chef-details">
+                              <h5>Kyoumars Freeman</h5>
+                              <span><img src="assets/images/star.png" alt="ratings">4.7</span>
+                           </div>
+                           <div class="chef-cusions">
+                              <span>Persian</span>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="item">
+                     <a href="javascript:void(0);">
+                        <img src="assets/images/chef4.png" alt="Chef Image" class="chef-image" />
+                        <div class="chef-info">
+                           <div class="chef-details">
+                              <h5>Mako Ravindran</h5>
+                           </div>
+                           <div class="chef-rebook">
+                              <img src="assets/images/rebook.png" alt="Chef Rebook" class="rebook">Rebook
+                           </div>
+                           <div class="chef-cusions">
+                              <span>French</span>
+                              <span>Italian</span>
+                              <span>Indian</span>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="item">
+                     <a href="javascript:void(0);">
+                        <img src="assets/images/chef2.png" alt="Chef Image" class="chef-image" />
+                        <div class="chef-info">
+                           <div class="chef-details">
+                              <h5>Anup Kakati</h5>
+                           </div>
+                           <div class="chef-rebook">
+                              <img src="assets/images/rebook.png" alt="Chef Rebook" class="rebook">Rebook
+                           </div>
+                           <div class="chef-cusions">
+                              <span>Thai</span>
+                              <span>Asian</span>
+                              <span>Indian</span>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12 mobile-show">
+                  <a href="javascript:void(0);" class="view-more">View More Chefs</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="testimonials">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="testimonails-slider owl-carousel owl-theme">
+                     <div class="item">
+                        <h3>"Mako and his eccentric Personality, lit up the room and our taste buds!"</h3>
+                        <img src="assets/images/ratings.png" alt="Ratings" class="ratings">
+                        <p>I had chef Mako over to host a few business partners. The dinner experience was absolutely amazing and he makes amazing Sushi!</p>
+                        <h6>Arvind Mohan, CEO of Alpha</h6>
+                     </div>
+                     <div class="item">
+                        <h3>"Mako and his eccentric Personality, lit up the room and our taste buds!"</h3>
+                        <img src="assets/images/ratings.png" alt="Ratings" class="ratings">
+                        <p>I had chef Mako over to host a few business partners. The dinner experience was absolutely amazing and he makes amazing Sushi!</p>
+                        <h6>Arvind Mohan, CEO of Alpha</h6>
+                     </div>
+                     <div class="item">
+                        <h3>"Mako and his eccentric Personality, lit up the room and our taste buds!"</h3>
+                        <img src="assets/images/ratings.png" alt="Ratings" class="ratings">
+                        <p>I had chef Mako over to host a few business partners. The dinner experience was absolutely amazing and he makes amazing Sushi!</p>
+                        <h6>Arvind Mohan, CEO of Alpha</h6>
+                     </div>
+                     <div class="item">
+                        <h3>"Mako and his eccentric Personality, lit up the room and our taste buds!"</h3>
+                        <img src="assets/images/ratings.png" alt="Ratings" class="ratings">
+                        <p>I had chef Mako over to host a few business partners. The dinner experience was absolutely amazing and he makes amazing Sushi!</p>
+                        <h6>Arvind Mohan, CEO of Alpha</h6>
+                     </div>
+                     <div class="item">
+                        <h3>"Mako and his eccentric Personality, lit up the room and our taste buds!"</h3>
+                        <img src="assets/images/ratings.png" alt="Ratings" class="ratings">
+                        <p>I had chef Mako over to host a few business partners. The dinner experience was absolutely amazing and he makes amazing Sushi!</p>
+                        <h6>Arvind Mohan, CEO of Alpha</h6>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="cook">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-12">
+                  <h4>What we cook for</h4>
+                  <div class="cookslider owl-carousel owl-theme">
+                     <div class="item" data-dot="<p>Conscious Dining</p>">
+                        <img src="assets/images/cook1.png" alt="Cook" />
+                     </div>
+                     <div class="item" data-dot="<p>Championing Chefs</p>">
+                        <img src="assets/images/cook1.png" alt="Cook" />
+                     </div>
+                     <div class="item" data-dot="<p>Community</p>">
+                        <img src="assets/images/cook1.png" alt="Cook" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="testimonials testimonials1">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="testimonails-slider owl-carousel owl-theme">
+                     <div class="item">
+                        <h3>Times Of India</h3>
+                        <p>“A unique way of dining that is truly magical and extraordinary”</p>
+                     </div>
+                     <div class="item">
+                        <h3>Times Of India</h3>
+                        <p>“A unique way of dining that is truly magical and extraordinary”</p>
+                     </div>
+                     <div class="item">
+                        <h3>Times Of India</h3>
+                        <p>“A unique way of dining that is truly magical and extraordinary”</p>
+                     </div>
+                     <div class="item">
+                        <h3>Times Of India</h3>
+                        <p>“A unique way of dining that is truly magical and extraordinary”</p>
+                     </div>
+                     <div class="item">
+                        <h3>Times Of India</h3>
+                        <p>“A unique way of dining that is truly magical and extraordinary”</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="gallery">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-12">
+                  <h4>Food that makes you drool!</h4>
+               </div>
+               <div class="col-lg-4 width-50">
+                  <img src="assets/images/gallery2.png" alt="gallery1" class="gallery-images">
+                  <img src="assets/images/gallery1.png" alt="gallery2" class="gallery-images">
+               </div>
+               <div class="col-lg-4 width-51">
+                  <img src="assets/images/gallery3.png" alt="gallery3" class="gallery-images">
+               </div>
+               <div class="col-lg-4 width-501">
+                  <img src="assets/images/team.png" alt="gallery4" class="gallery-images">
+                  <img src="assets/images/about3.png" alt="gallery4" class="gallery-images">
+               </div>
+               <div class="mobile-gallery">
+                  <div class="col-lg-12">
+                     <img src="assets/images/gallery1.png" alt="gallery2" class="gallery-images">
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <img src="assets/images/gallery2.png" alt="gallery2" class="gallery-images">
+                        </div>
+                        <div class="col-lg-6">
+                           <img src="assets/images/gallery3.png" alt="gallery3" class="gallery-images">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-12 view-gallery">
+                  <a href="javascript:void(0);" class="view-all">View Gallery</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="treat">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6">
+                  <div class="treat-div">
+                     <p>#Treat your loved ones</p>
+                     <h4>Give the gift of an unforgettable food experience</h4>
+                     <p class="send-gift">send a gift card to your friends and family</p>
+                     <a href="/gift-cards.html" class="view-all">Learn More</a>
+                  </div>
+               </div>
+               <div class="col-lg-6 m-div">
+                  <div class="treat-div">
+                     <p>#Patron Privilage</p>
+                     <h4>Become a patron and get exclusive access to our top experiences</h4>
+                     <p class="send-gift"></p>
+                     <a href="/becomeapatron.html" class="view-all">Learn More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="join-table join-table1">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-6 ">
+                  <img src="assets/images/jointhetable.png" alt="Join The Table" class="jtable"/>
+               </div>
+               <div class="col-lg-6 title">
+                  <h4>Join our table</h4>
+                  <p>Receive recipes , tips and tricks from top chefs from around the globe, and exclusive offers right to your inbox.</p>
+                  <form action="" accept-charset="UTF-8" method="get">
+                     <div class="input-group">
+                        <input type="email" name="search" id="email-address" value="" placeholder="Your email address" class="form-control">
+                        <span class="input-group-btn">
+                        <input type="button" name="commit" value="Submit" class="btn btn-primary" data-disable-with="Search">
+                        </span>
+                     </div>
+                  </form>
+                  <p class="sign-in">By signing up, I agree to Chef’s a porter’s <a hred="javascript:void(0);">T&C’s</a> and <a hred="javascript:void(0);">Privacy Policy</a></p>
+                  <div class="find-us">
+                     <p>Find us on:</p>
+                     <div class="social-icon">
+                        <a href="javascript:void(0);"><i class="bi bi-instagram"></i></a>
+                        <a href="javascript:void(0);"><i class="bi bi-linkedin"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="cop-booking">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-12 title">
+                  <h4>Corporate bookings</h4>
+               </div>
+               <div class="col-lg-12 cop-slider owl-carousel owl-theme">
+                  <div class="cop-details">
+                     <img src="assets/images/cop1.png" alt="" class="cop-image">
+                     <div class="cop-info">
+                        <p>I had chef Mako over to host a few business partners. The dinner experience was absolutely amazing and he makes amazing Sushi!</p>
+                        <span class="designation">CEO, Accenture</span>
+                        <h6>Pratyush Shah</h6>
+                        <a href="/corporatebooking.html">Know more</a>
+                     </div>
+                  </div>
+                  <div class="cop-details">
+                     <img src="assets/images/cop1.png" alt="" class="cop-image">
+                     <div class="cop-info">
+                        <p>I had chef Mako over to host a few business partners. The dinner experience was absolutely amazing and he makes amazing Sushi!</p>
+                        <span class="designation">CEO, Accenture</span>
+                        <h6>Pratyush Shah</h6>
+                        <a href="/corporatebooking.html">Know more</a>
+                     </div>
+                  </div>
+                  <div class="cop-details">
+                     <img src="assets/images/cop1.png" alt="" class="cop-image">
+                     <div class="cop-info">
+                        <p>I had chef Mako over to host a few business partners. The dinner experience was absolutely amazing and he makes amazing Sushi!</p>
+                        <span class="designation">CEO, Accenture</span>
+                        <h6>Pratyush Shah</h6>
+                        <a href="/corporatebooking.html">Know more</a>
+                     </div>
+                  </div>
+                  <div class="cop-details">
+                     <img src="assets/images/cop1.png" alt="" class="cop-image">
+                     <div class="cop-info">
+                        <p>I had chef Mako over to host a few business partners. The dinner experience was absolutely amazing and he makes amazing Sushi!</p>
+                        <span class="designation">CEO, Accenture</span>
+                        <h6>Pratyush Shah</h6>
+                        <a href="/corporatebooking.html">Know more</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="cop-booking cop-booking1">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-12 title">
+                  <h4>Corporate bookings</h4>
+               </div>
+               <div class="col-lg-12 cop-slider owl-carousel owl-theme">
+                  <div class="cop-details">
+                     <div class="cop-info">
+                        <p>I had chef Mako over to host a few business partners. The dinner experience was absolutely amazing and he makes amazing Sushi!</p>
+                        <span class="designation">CEO, Accenture</span>
+                        <h6>Pratyush Shah</h6>
+                        <a href="/corporatebooking.html">Know more</a>
+                     </div>
+                     <img src="assets/images/cop1.png" alt="" class="cop-image">
+                  </div>
+                  <div class="cop-details">
+                     <div class="cop-info">
+                        <p>I had chef Mako over to host a few business partners. The dinner experience was absolutely amazing and he makes amazing Sushi!</p>
+                        <span class="designation">CEO, Accenture</span>
+                        <h6>Pratyush Shah</h6>
+                        <a href="/corporatebooking.html">Know more</a>
+                     </div>
+                     <img src="assets/images/cop1.png" alt="" class="cop-image">
+                  </div>
+                  <div class="cop-details">
+                     <div class="cop-info">
+                        <p>I had chef Mako over to host a few business partners. The dinner experience was absolutely amazing and he makes amazing Sushi!</p>
+                        <span class="designation">CEO, Accenture</span>
+                        <h6>Pratyush Shah</h6>
+                        <a href="/corporatebooking.html">Know more</a>
+                     </div>
+                     <img src="assets/images/cop1.png" alt="" class="cop-image">
+                  </div>
+                  <div class="cop-details">
+                     <div class="cop-info">
+                        <p>I had chef Mako over to host a few business partners. The dinner experience was absolutely amazing and he makes amazing Sushi!</p>
+                        <span class="designation">CEO, Accenture</span>
+                        <h6>Pratyush Shah</h6>
+                        <a href="/corporatebooking.html">Know more</a>
+                     </div>
+                     <img src="assets/images/cop1.png" alt="" class="cop-image">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="join-table">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-12 title">
+                  <h4>Join our table</h4>
+                  <p>Receive recipes , tips and tricks from top chefs from around the globe, and exclusive offers right to your inbox.</p>
+                  <img src="assets/images/jointhetable.png" alt="Join The Table" class="jtable"/>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <form action="" accept-charset="UTF-8" method="get">
+                           <div class="input-group">
+                              <input type="email" name="search" id="email-address" value="" placeholder="Your email address" class="form-control">
+                              <span class="input-group-btn">
+                              <input type="button" name="commit" value="Submit" class="btn btn-primary" data-disable-with="Search">
+                              </span>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+                  <p class="sign-in">By signing up, I agree to Chef’s a porter’s <a hred="javascript:void(0);">T&C’s</a> and <a hred="javascript:void(0);">Privacy Policy</a></p>
+                  <div class="find-us">
+                     <p>Find us on:</p>
+                     <div class="social-icon">
+                        <a href="javascript:void(0);"><i class="bi bi-instagram"></i></a>
+                        <a href="javascript:void(0);"><i class="bi bi-linkedin"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="treat treat1">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="treat-div">
+                     <p>#Patron Privilage</p>
+                     <h4>Become a patron and get exclusive access to our top experiences</h4>
+                     <a href="/becomeapatron.html" class="view-all">Learn More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="fresh-blog">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-12 title">
+                  <h4>Fresh from the blog</h4>
+                  <a href="javascript:void(0);">
+                     <div class="f-blog">
+                        <img src="assets/images/food1.png" alt="" class="food-image"/>
+                        <div class="fresh-details">
+                           <h6>Food Tips</h6>
+                           <p>Indian dishes that you can prepare at home this diwali</p>
+                        </div>
+                        <i class="bi bi-chevron-right"></i>
+                     </div>
+                  </a>
+                  <a href="javascript:void(0);">
+                     <div class="f-blog">
+                        <img src="assets/images/food2.png" alt="" class="food-image"/>
+                        <div class="fresh-details">
+                           <h6>Global Fusion</h6>
+                           <p>Recipes prepared by our chef that have a twist and are easy to make at home</p>
+                        </div>
+                        <i class="bi bi-chevron-right"></i>
+                     </div>
+                  </a>
+                  <a href="javascript:void(0);">
+                     <div class="f-blog">
+                        <img src="assets/images/food3.png" alt="" class="food-image"/>
+                        <div class="fresh-details">
+                           <h6><b>Latest Trends</b></h6>
+                           <p>Recipes prepared by our chef that have a twist and are easy to make at home</p>
+                        </div>
+                        <i class="bi bi-chevron-right"></i>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="template">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-12 title">
+                  <h4>Tempted yet?</h4>
+                  <a href="javascript:void(0);" class="view-all">View our offerings</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="privee">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-12">
+                  <h4>Peek into our Private Dining Experiences</h4>
+                  <h5>@Privée</h5>
+                  <div id="owl-demo" class="owl-carousel owl-theme">
+                     <div class="item">
+                        <img src="assets/images/ig1.png" alt="Instagram" class="ig-images" />
+                     </div>
+                     <div class="item">
+                        <img src="assets/images/ig2.png" alt="Instagram" class="ig-images" />
+                     </div>
+                     <div class="item">
+                        <img src="assets/images/ig3.png" alt="Instagram" class="ig-images" />
+                     </div>
+                     <div class="item">
+                        <img src="assets/images/ig4.png" alt="Instagram" class="ig-images" />
+                     </div>
+                     <div class="item">
+                        <img src="assets/images/ig5.png" alt="Instagram" class="ig-images" />
+                     </div>
+                     <div class="item">
+                        <img src="assets/images/ig2.png" alt="Instagram" class="ig-images" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- <section class="faq">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-12 title">
+                  <h4>Frequently Asked Questions</h4>
+                  <div class="accordion accordion-flush" id="accordionExample">
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                           Would there be any pure vegetarian options?
+                           </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                           <div class="accordion-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet ultrices urna vitae laoreet. Fusce posuere nec dui sed euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eu faucibus elit, eget venenatis nulla. Vivamus vel blandit ipsum, eget fringilla neque. Sed sed dui eu erat tincidunt placerat. Nulla vitae aliquet urna.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           How long does the meal last for ?
+                           </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                           <div class="accordion-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet ultrices urna vitae laoreet. Fusce posuere nec dui sed euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eu faucibus elit, eget venenatis nulla. Vivamus vel blandit ipsum, eget fringilla neque. Sed sed dui eu erat tincidunt placerat. Nulla vitae aliquet urna.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                           Whats the cancellation policy?
+                           </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                           <div class="accordion-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet ultrices urna vitae laoreet. Fusce posuere nec dui sed euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eu faucibus elit, eget venenatis nulla. Vivamus vel blandit ipsum, eget fringilla neque. Sed sed dui eu erat tincidunt placerat. Nulla vitae aliquet urna.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                           Will the cutlery be provided?
+                           </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                           <div class="accordion-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet ultrices urna vitae laoreet. Fusce posuere nec dui sed euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eu faucibus elit, eget venenatis nulla. Vivamus vel blandit ipsum, eget fringilla neque. Sed sed dui eu erat tincidunt placerat. Nulla vitae aliquet urna.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                           Is it possible to pay the entiresum in EMIs?
+                           </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                           <div class="accordion-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet ultrices urna vitae laoreet. Fusce posuere nec dui sed euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eu faucibus elit, eget venenatis nulla. Vivamus vel blandit ipsum, eget fringilla neque. Sed sed dui eu erat tincidunt placerat. Nulla vitae aliquet urna.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                           Is it possible to pay the entiresum in EMIs?
+                           </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                           <div class="accordion-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet ultrices urna vitae laoreet. Fusce posuere nec dui sed euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eu faucibus elit, eget venenatis nulla. Vivamus vel blandit ipsum, eget fringilla neque. Sed sed dui eu erat tincidunt placerat. Nulla vitae aliquet urna.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                           How many guest can i invite for a private dinner?
+                           </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                           <div class="accordion-body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet ultrices urna vitae laoreet. Fusce posuere nec dui sed euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eu faucibus elit, eget venenatis nulla. Vivamus vel blandit ipsum, eget fringilla neque. Sed sed dui eu erat tincidunt placerat. Nulla vitae aliquet urna.
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section> -->
+      <section class="joinchef-needhelp">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="need-help">
+                  <div class="treat-div">
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <h4>Need Help?</h4>
+                           <p>We respond within 24 business hours.</p>
+                        </div>
+                        <div class="col-lg-3 pr">
+                           <a href="javascript:void(0);" class="view-all" data-bs-toggle="modal" data-bs-target="#exampleModal">Schedule a Call</a>
+                        </div>
+                        <div class="col-lg-3">
+                           <a href="javascript:void(0);" class="view-all">Email us</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="desktop-footer">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-6">
+                  <img src="assets/images/logo-gold.png" alt="Logo" class="logo footer-logo">
+               </div>
+               <div class="col-lg-6">
+                  <div class="social-icon">
+                    <a href="javascript:void(0);"><i class="bi bi-instagram"></i></a>
+                    <a href="javascript:void(0);"><i class="bi bi-linkedin"></i></a>
+                    <a href="javascript:void(0);"><i class="bi bi-facebook"></i></a>
+                    <a href="javascript:void(0);"><i class="bi bi-twitter"></i></a>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-2">
+                <h4>Chef a porter</h4>
+                <ul>
+                   <li><a href="/becomeapatron.html">Become a Patron</a></li>
+                   <li><a href="/corporatebooking.html">Corporate Bookings</a></li>
+                   <li><a href="/gift-cards.html">Gift Cards</a></li>
+                </ul>
+              </div> 
+              <div class="col-lg-2">
+                  <h4>Experiences</h4>
+                  <ul>
+                     <li><a href="/privee.html">Privee</a></li>
+                     <li><a href="/supper-club.html">Supper Clubs</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-2">
+                <h4>Company</h4>
+                <ul>
+                  <li><a href="/about-us.html">About Us</a></li>
+                  <li><a href="javascript:void(0);">Blogs</a></li>
+                </ul>
+              </div>
+               <div class="col-lg-2">
+                  <h4>Join Us</h4>
+                  <ul>
+                     <li><a href="/joinchef.html">as Chef</a></li>
+                     <li><a href="/becomepartner.html">as Sponsor Partner</a></li>
+                     <li><a href="javascript:void(0);">as Vendor</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-4">
+                  <h4>Reach out to us</h4>
+                  <form action="" accept-charset="UTF-8" method="get">
+                    <div class="input-group">
+                       <input type="email" name="search" id="email-address" value="" placeholder="Your email address" class="form-control">
+                       <span class="input-group-btn">
+                       <input type="button" name="commit" value="Submit" class="btn btn-primary" data-disable-with="Search">
+                       </span>
+                    </div>
+                 </form>
+                 <ul>
+                  <li><a href="/contact-us.html">Contact Us</a></li>
+                  <li><a href="mailto:reservations@chefsaporter.com.">reservations@chefsaporter.com.</a></li>
+                </ul>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <footer class="mobile-footer">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-12">
+                  <ul class="footer-mobile-links">
+                     <li><a href="javascript:void(0);">FAQs</a></li>
+                     <li>
+                        <a href="javascript:void(0);">
+                           Privacy Policy
+                     </li>
+                     <li><a href="javascript:void(0);">T&C</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Scedule Call Modal -->
+      <div class="modal fade schedule" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered modal-sm">
+           <div class="modal-content">
+              <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLabel">Schedule a call</h5>
+                 <button type="button" data-bs-dismiss="modal" aria-label="Close" class="close"><i class="bi bi-x-lg"></i></button>
+              </div>
+              <div class="modal-body">
+                 <div class="container-fluid">
+                    <form action="" class="needs-validation" novalidate>
+                       <div class="row">
+                          <div class="col-lg-12">
+                             <div class="row">
+                                <div class="col-md-12 mb-3">
+                                   <label for="day">Day</label>
+                                   <input type="text" class="form-control" id="day" required/>
+                                   <span class="arrow_span"></span>
+                                   <div class="invalid-feedback">Select Day</div>
+                                </div>
+                                <div class="col-md-12 mb-3  ">
+                                   <label for="timepicker1">Time</label>
+                                   <div class="input-group bootstrap-timepicker timepicker">
+                                      <input id="timepicker1" type="text" class="form-control input-small">
+                                      <span class="arrow_span arrow1"></span>
+                                   </div>
+                                   <div class="invalid-feedback">Select time</div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                   <label for="contact-number">Contact Number</label>
+                                   <div class="form-group country">
+                                      <span class="country-code">+91 <i class="bi bi-chevron-down"></i></span>
+                                      <input type="tel" class="form-control" id="contact-number" placeholder="10 digit number" value="" required>
+                                   </div>
+                                   <div class="invalid-feedback">Incorrect Mobile Number</div>
+                                </div>
+                                <div class="col-md-12">
+                                   <label for="query">Write your query below</label>
+                                   <textarea id="validationCustom04 query" class="form-control" maxlength="500"  placeholder="Eg. Menu, Decor, Cancellation  " required></textarea>
+                                   <div class="invalid-feedback">Please enter text</div>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                       <div class="row">
+                          <div class="col-lg-12">
+                             <button class="btn btn-primary" type="submit">Apply</button>
+                          </div>
+                       </div>
+                    </form>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+      <!-- script -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/owl.carousel.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/timepicker@1.14.0/jquery.timepicker.min.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script>
+         jQuery( document ).ready(function($) {
+                  $('.my-select').selectpicker();
+          });
+          $(document).ready(function() {
+          $("#indate").datepicker({
+            dateFormat: "D,d M",
+            dayNames: ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"],
+          });
+          $("#indate").datepicker('setDate', 'today');
+          $("#day").datepicker({
+               dateFormat: "D,d M",
+               dayNames: ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"],
+             });
+             $("#day").datepicker('setDate', 'today');
+             $('#timepicker1').timepicker({ template: 'dropdown'});
+             $('#timepicker1').timepicker('setTime', new Date());
+         });
+      </script>
+   </body>
+</html>

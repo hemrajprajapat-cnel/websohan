@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chefs-à-Porter</title>
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <!-- cusotme css -->
+    <link rel="stylesheet" href="assets/css/custome.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        type="text/css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/css/bootstrap-select.min.css">
+    <link href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <!-- Include Bootstrap DateTimePicker CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/timepicker@1.14.0/jquery.timepicker.min.css">
+</head>
+
+<body>
+    <header class="home-header">
+        <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
+            <div class="container">
+                <a class="navbar-brand" href="/"><img src="assets/images/Logo.png" alt="Logo" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar2">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 main-bar">
+                            <li class="nav-item active" aria-current="page"><a href="/" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item"><a href="/privee.html" class="nav-link">Privee</a></li>
+                            <li class="nav-item"><a href="/supperclub.html" class="nav-link">Supper Clubs</a></li>
+                            <li class="nav-item"><a href="/Our-Chefs.html" class="nav-link">Our Chefs</a></li>
+                            <li class="nav-item"><a href="/corporatebooking.html" class="nav-link">Corporate
+                                    Bookings</a></li>
+                            <li class="nav-item"><a href="/becomeapatron.html" class="nav-link">Become a Patron</a>
+                            </li>
+                            <li class="nav-item"><a href="/gift-cards.html" class="nav-link">Gift Cards</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                    aria-expanded="false" aria-controls="collapseExample">Join Us <i
+                                        class="bi bi-chevron-up"></i></a>
+                                <ul class="collapse" id="collapseExample">
+                                    <li><a href="/joinchef.html" class="nav-link">Chef</a></li>
+                                    <li><a href="/becomepartner.html" class="nav-link">Sponsor Partner</a></li>
+                                    <li><a href="javascript:void(0);" class="nav-link">Vendor<br />(decor, venue,
+                                            crockery, cultery, produce, etc</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="/about-us.html" class="nav-link">About us</a></li>
+                            <li class="nav-item"><a href="/contact-us.html" class="nav-link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="desktop-header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="assets/images/Logo.png" alt="Logo" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="/privee.html">Privee</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="/supperclub.html">Supper Clubs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./blog.html">Our Chefs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/contact-us.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/about-us.html">About Us</a></li>
+                    </ul>
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <div id="search">
+                                <form class="searchbar">
+                                    <input type="search" placeholder="Search" name="search" class="searchbar-input"
+                                        onkeyup="buttonUp();" required>
+                                    <input type="submit" class="searchbar-submit" value="">
+                                    <span class="searchbar-icon"><img src="assets/images/search.png" alt=""
+                                            class="top-search"><i class="bi bi-x-lg" aria-hidden="true"></i></span>
+                                </form>
+                            </div>
+                        </li>
+                        <li><a href="javascript:void(0);"><img src="assets/images/tel.png" alt="" class="top-tel"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container category_container" style="margin: 80px auto;">
+
+        <div class="row pt-3">
+            <div class="col-md-12 bradcrumb">
+                <span>Blog <i class="fa fa-chevron-right"></i> <a href="#"> Conscious Dining </a> </span>
+            </div>
+        </div>
+
+        <div class="category-rw d-flex justify-content-center">
+            <div class="category bg-white">
+                <div class="heading-rw">
+                    <h2 class="heading-title">Food Tips by Lucky Bond</h2>
+                    <div class="row intro_row mt-3 mb-4">
+                        <div class="col-8">
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="./assets/images/team1.png" class="img-fluid" alt="image not found">
+                                </div>
+                                <div class="col-8">
+                                    <h6>Full name</h6>
+                                    <span>11 jan 2022</span>&nbsp
+                                    <span>5 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="social-icon">
+                                <ul class="">
+                                    <li><a href=""><i class="fa-solid fa-link"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/images/value-iamge.png" class="img-fluid" alt="">
+                <div class="intr-cl mt-5">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-sm-12 col-lg-8 p-3 inner_section">
+                            <h5>Introduction</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus, ab
+                                ipsam
+                                quas amet adipisci corrupti soluta illum dolore dolorum laudantium vel repellat illo
+                                facilis
+                                deserunt provident ad saepe quo?
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus, ab
+                                ipsam
+                                quas amet adipisci corrupti soluta illum dolore dolorum laudantium vel repellat illo
+                                facilis
+                                deserunt provident ad saepe quo?
+                            </p>
+                            <img src="./assets/images/intro-img.png" class="img-fluid]" alt="image not found">
+                            <small>Image courtesy of mathilde Langevin via pexel.com.intr-cl</small>
+                            <div class="image-desc pt-3">
+                                <b>
+                                    <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis nesciunt
+                                        eum
+                                        distinctio, laborum fuga voluptas pariatur fugit ea molestias quia inventore ab
+                                        corrupti eveniet consequuntur provident quasi reprehenderit neque ipsa.</h5>
+                                </b>
+                                <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Accusantium, quo. Adipisci quia dolores recusandae quam deserunt sed,
+                                    exercitationem, soluta commodi quisquam omnis dicta quos tempora vel quod.
+                                    Aspernatur, doloribus optio.</p>
+                            </div>
+                            <div class="reivew-class bg-dark text-white p-5">
+
+                                <div class="reviw-para v1">
+
+                                    <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum facere
+                                        doloremque ex odio praesentium sunt libero dolor vel rem, corporis quia fuga
+                                        ea unde molestias! Aperiam nisi tempora libero non."
+                                    </p>
+                                    <div class="review-name">
+                                        - Olivia Rhye,Product Designer
+                                    </div>
+                                </div>
+
+                            </div>
+                            <p class="pt-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quidem iusto
+                                repellendus magni dolores esse id fuga laboriosam molestiae deserunt. Nesciunt
+                                reiciendis quae quas quidem, consequatur laboriosam sapiente dolor aut.
+                            </p>
+                            <div class="conclusion-rw">
+                                <h5>Conclusion</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                                    repellendus, ab
+                                    ipsam
+                                    quas amet adipisci corrupti soluta illum dolore dolorum laudantium vel repellat
+                                    illo
+                                    facilis
+                                    deserunt provident ad saepe quo?
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati numquam
+                                    aliquam ipsum nulla quas, aspernatur explicabo! Porro, sapiente voluptate,
+                                    nostrum voluptatem excepturi doloremque sint reprehenderit sequi inventore
+                                    assumenda distinctio esse?
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                                    repellendus, ab
+                                    ipsam
+                                    quas amet adipisci corrupti soluta illum dolore dolorum laudantium vel repellat
+                                    illo
+                                    facilis
+                                    deserunt provident ad saepe quo?
+                                </p>
+                                <div class="shar-post-rw">
+                                    <h4>Share this post</h4>
+                                    <div class="row">
+                                        <div class="col-md-7">
+                                            <ul class="social-inline-icons">
+                                                <li><a href=""><i class="fa-solid fa-link"></i></a></li>
+                                                <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-5 tag-rw">
+                                            <ul>
+                                                <li><i>Tag one</i></li>
+                                                <li><i>Tag two</i></li>
+                                                <li><i>Tag three</i></li>
+                                                <li><i>Tag four</i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="border-width: 2px;">
+                </div>
+                <div class="row mb-2 category_bottom_section">
+                    <div class="col-md-8">
+                        <div class="row p-2">
+                            <div class="col-md-1">
+                                <img src="./assets/images/team1.png" class="img-fluid" alt="image not found">
+                            </div>
+                            <div class="col-md-7">
+                                <strong><span>Rene Wells</span></strong> <br>
+                                <span>Content Writer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="desktop-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="assets/images/logo-gold.png" alt="Logo" class="logo footer-logo">
+                </div>
+                <div class="col-lg-6">
+                    <div class="social-icon">
+                        <a href="javascript:void(0);"><i class="bi bi-instagram"></i></a>
+                        <a href="javascript:void(0);"><i class="bi bi-linkedin"></i></a>
+                        <a href="javascript:void(0);"><i class="bi bi-facebook"></i></a>
+                        <a href="javascript:void(0);"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <h4>Chef a porter</h4>
+                    <ul>
+                        <li><a href="/becomeapatron.html">Become a Patron</a></li>
+                        <li><a href="/corporatebooking.html">Corporate Bookings</a></li>
+                        <li><a href="/gift-cards.html">Gift Cards</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h4>Experiences</h4>
+                    <ul>
+                        <li><a href="/privee.html">Privee</a></li>
+                        <li><a href="/supper-club.html">Supper Clubs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/about-us.html">About Us</a></li>
+                        <li><a href="javascript:void(0);">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h4>Join Us</h4>
+                    <ul>
+                        <li><a href="/joinchef.html">as Chef</a></li>
+                        <li><a href="/becomepartner.html">as Sponsor Partner</a></li>
+                        <li><a href="javascript:void(0);">as Vendor</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4>Reach out to us</h4>
+                    <form action="" accept-charset="UTF-8" method="get">
+                        <div class="input-group">
+                            <input type="email" name="search" id="email-address" value=""
+                                placeholder="Your email address" class="form-control">
+                            <span class="input-group-btn">
+                                <input type="button" name="commit" value="Submit" class="btn btn-primary"
+                                    data-disable-with="Search">
+                            </span>
+                        </div>
+                    </form>
+                    <ul>
+                        <li><a href="/contact-us.html">Contact Us</a></li>
+                        <li><a href="mailto:reservations@chefsaporter.com.">reservations@chefsaporter.com.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="mobile-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="footer-mobile-links">
+                        <li><a href="javascript:void(0);">FAQs</a></li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                Privacy Policy
+                        </li>
+                        <li><a href="javascript:void(0);">T&C</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scedule Call Modal -->
+    <div class="modal fade schedule" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Schedule a call</h5>
+                    <button type="button" data-bs-dismiss="modal" aria-label="Close" class="close"><i
+                            class="bi bi-x-lg"></i></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form action="" class="needs-validation" novalidate>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-md-12 mb-3">
+                                            <label for="day">Day</label>
+                                            <input type="text" class="form-control" id="day" required />
+                                            <span class="arrow_span"></span>
+                                            <div class="invalid-feedback">Select Day</div>
+                                        </div>
+                                        <div class="col-md-12 mb-3  ">
+                                            <label for="timepicker1">Time</label>
+                                            <div class="input-group bootstrap-timepicker timepicker">
+                                                <input id="timepicker1" type="text" class="form-control input-small">
+                                                <span class="arrow_span arrow1"></span>
+                                            </div>
+                                            <div class="invalid-feedback">Select time</div>
+                                        </div>
+                                        <div class="col-md-12 mb-3">
+                                            <label for="contact-number">Contact Number</label>
+                                            <div class="form-group country">
+                                                <span class="country-code">+91 <i class="bi bi-chevron-down"></i></span>
+                                                <input type="tel" class="form-control" id="contact-number"
+                                                    placeholder="10 digit number" value="" required>
+                                            </div>
+                                            <div class="invalid-feedback">Incorrect Mobile Number</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label for="query">Write your query below</label>
+                                            <textarea id="validationCustom04 query" class="form-control" maxlength="500"
+                                                placeholder="Eg. Menu, Decor, Cancellation  " required></textarea>
+                                            <div class="invalid-feedback">Please enter text</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button class="btn btn-primary" type="submit">Apply</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- script -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/timepicker@1.14.0/jquery.timepicker.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.my-select').selectpicker();
+        });
+        $(document).ready(function () {
+            $("#indate").datepicker({
+                dateFormat: "D,d M",
+                dayNames: ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"],
+            });
+            $("#indate").datepicker('setDate', 'today');
+            $("#day").datepicker({
+                dateFormat: "D,d M",
+                dayNames: ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"],
+            });
+            $("#day").datepicker('setDate', 'today');
+            $('#timepicker1').timepicker({ template: 'dropdown' });
+            $('#timepicker1').timepicker('setTime', new Date());
+        });
+    </script>
+</body>
+
+</html>

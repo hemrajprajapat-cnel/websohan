@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chefs-à-Porter</title>
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <!-- cusotme css -->
+    <link rel="stylesheet" href="assets/css/custome.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        type="text/css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/css/bootstrap-select.min.css">
+    <link href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <!-- Include Bootstrap DateTimePicker CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/timepicker@1.14.0/jquery.timepicker.min.css">
+</head>
+
+<body>
+    <header class="home-header">
+        <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
+            <div class="container">
+                <a class="navbar-brand" href="/"><img src="assets/images/Logo.png" alt="Logo" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar2">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 main-bar">
+                            <li class="nav-item active" aria-current="page"><a href="/" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item"><a href="/privee.html" class="nav-link">Privee</a></li>
+                            <li class="nav-item"><a href="/supperclub.html" class="nav-link">Supper Clubs</a></li>
+                            <li class="nav-item"><a href="/Our-Chefs.html" class="nav-link">Our Chefs</a></li>
+                            <li class="nav-item"><a href="/corporatebooking.html" class="nav-link">Corporate
+                                    Bookings</a></li>
+                            <li class="nav-item"><a href="/becomeapatron.html" class="nav-link">Become a Patron</a>
+                            </li>
+                            <li class="nav-item"><a href="/gift-cards.html" class="nav-link">Gift Cards</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                    aria-expanded="false" aria-controls="collapseExample">Join Us <i
+                                        class="bi bi-chevron-up"></i></a>
+                                <ul class="collapse" id="collapseExample">
+                                    <li><a href="/joinchef.html" class="nav-link">Chef</a></li>
+                                    <li><a href="/becomepartner.html" class="nav-link">Sponsor Partner</a></li>
+                                    <li><a href="javascript:void(0);" class="nav-link">Vendor<br />(decor, venue,
+                                            crockery, cultery, produce, etc</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="/about-us.html" class="nav-link">About us</a></li>
+                            <li class="nav-item"><a href="/contact-us.html" class="nav-link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="desktop-header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="assets/images/Logo.png" alt="Logo" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="/privee.html">Privee</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="/supperclub.html">Supper Clubs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./blog.html">Our Chefs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/contact-us.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/about-us.html">About Us</a></li>
+                    </ul>
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <div id="search">
+                                <form class="searchbar">
+                                    <input type="search" placeholder="Search" name="search" class="searchbar-input"
+                                        onkeyup="buttonUp();" required>
+                                    <input type="submit" class="searchbar-submit" value="">
+                                    <span class="searchbar-icon"><img src="assets/images/search.png" alt=""
+                                            class="top-search"><i class="bi bi-x-lg" aria-hidden="true"></i></span>
+                                </form>
+                            </div>
+                        </li>
+                        <li><a href="javascript:void(0);"><img src="assets/images/tel.png" alt="" class="top-tel"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container blog_container">
+
+        <div class="row">
+            <div class="col-md-12 bradcrumb">
+                <span>Blog <i class="fa fa-chevron-right"></i> <a href="#"> Conscious Dining </a> </span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="blog-page">
+
+                    <div class="blog-inner-rw">
+                        <div class="small-head mb-2">
+                            Why we're Diffrent
+                        </div>
+                        <h2 class="title">We Bring honesty & transparency to dining </h2>
+                        <div class="blog-inner-page">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="row image-rw">
+                                        <div class="col-2">
+                                            <img src="./assets/images/team1.png" class="img-fluid"
+                                                alt="image-not-found">
+                                        </div>
+                                        <div class="col-10" style="padding: 0px;">
+                                            <p>Full name</p>
+                                            <lable>11 jan 2022 <span>5 min read</span> </lable>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="social-icon">
+                                        <ul class="">
+                                            <li><a href=""><i class="fa-solid fa-link"></i></a></li>
+                                            <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3">
+                                <div class="col-lg-12">
+                                    <div class="food-browsing-slider owl-carousel owl-theme">
+                                        <div class="item">
+                                            <a href="javascript:void(0);">
+                                                <img src="assets/images/slide1(1).png" alt="sldie 1" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="javascript:void(0);">
+                                                <img src="assets/images/slide1(1).png" alt="sldie 1" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="javascript:void(0);">
+                                                <img src="assets/images/slide1(1).png" alt="sldie 1" />
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="javascript:void(0);">
+                                                <img src="assets/images/slide1(1).png" alt="sldie 1" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="our-values mt-4">
+                                <div class="our-title mb-3">
+                                    <i class="fa-sharp fa-solid fa-gem"></i><strong>Our Values</strong>
+                                </div>
+                                <div class="our-values-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquam
+                                        doloremque autem, ab architecto unde consequatur eligendi quia
+                                        voluptatum ipsam quisquam debitis magni eos veritatis amet voluptate
+                                        iste praesentium totam.
+                                    </p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum animi
+                                        hic culpa? Optio illum velit odio delectus voluptatibus recusandae
+                                        magnam quibusdam architecto, enim amet necessitatibus ratione
+                                        provident impedit officia dolore!
+                                    </p>
+                                </div>
+                                <img src="./assets/images/value-iamge.png" class="img-fluid" alt="image not found">
+                                <small>Image courtesy of mathllde langevin via pexel.com</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reivew-class bg-color mb-4">
+                        <div class="reviw-para v1">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum facere
+                                doloremque ex odio praesentium sunt libero dolor vel rem, corporis quia fuga
+                                ea unde molestias! Aperiam nisi tempora libero non.</p>
+                            <div class="review-name text-muted">
+                                - Olivia Rhye,Product Designer
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="heath-clean-rw pad-rw ">
+                        <h4 class="title"><strong>Health & Clean Food</strong> </h4>
+                        <p class="health-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aspernatur repellat architecto odio? Tenetur impedit et quod, ad magni excepturi
+                            consequatur provident obcaecati. Sequi perferendis nam eius deleniti doloremque,
+                            autem minus.
+                        </p>
+                        <hr>
+                    </div>
+
+                    <div class="food-rw pad-rw">
+                        <h4 class="title">
+                            Food that brings people together
+                        </h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste dolor explicabo
+                            quod quaerat animi at asperiores optio similique rerum esse pariatur obcaecati
+                            harum consequatur reiciendis dolorum quia quam, odit dignissimos?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste dolor explicabo
+                            quod quaerat animi at asperiores optio similique rerum esse pariatur obcaecati
+                            harum consequatur reiciendis dolorum quia quam, odit dignissimos?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste dolor explicabo
+                            quod quaerat animi at asperiores optio similique rerum esse pariatur obcaecati
+                            harum consequatur reiciendis dolorum quia quam, odit dignissimos?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste dolor explicabo
+                            quod quaerat animi at asperiores optio similique rerum esse pariatur obcaecati
+                            harum consequatur reiciendis dolorum quia quam, odit dignissimos?</p>
+                        <hr>
+                    </div>
+
+                    <div class="auth-rw pad-rw blog_bottom_user_section">
+                        <div class="row">
+                            <div class="col-1 p-0">
+                                <img src="./assets/images/team1.png" class="img-fluid" alt="image-not-found">
+                            </div>
+                            <div class="col-5 pt-1" style="padding-left: 0px;">
+                                <strong>Rene Wells</strong>
+                                <br>Content Writer
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="view-all">
+                    <div class="view-right">
+                        View all Posts
+                        <hr>
+                    </div>
+                    <div class="latest-blog-post-rw">
+                        <a href="" class="our-blogs">Our Blogs</a>
+                        <h2 class="title">Lastest Blog Posts</h2>
+                        <div class="title-desc">
+                            Fresh for the best chefs curated content that showcases the community
+                        </div>
+                        <div class="latest-blog-img mt-4">
+                            <img src="./assets/images/latest-post.png" class="img-fluid" alt="image not found">
+                        </div>
+                    </div>
+                    <div class="latest-blog-post-rw mt-2">
+                        <a href="#" class="our-blogs">Food</a>
+                        <h2 class="title mt-2">Global Fusion</h2>
+                        <div class="title-desc">
+                            Fresh for the best chefs curated content that showcases the community
+                            <hr>
+                        </div>
+                        <div class="auth-rw post_by">
+                            <div class="row">
+                                <div class="col-2 p-0" style="margin-left: 15px;">
+                                    <img src="./assets/images/team1.png" class="img-fluid" alt="image-not-found">
+                                </div>
+                                <div class="col-5 mt-1">
+                                    <span>Olivy Rhne</span>
+                                    <br>
+                                    <p>20 JAN 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="latest-blog-img mt-5">
+                            <img src="./assets/images/global-img.png" class="img-fluid" alt="image not found">
+                        </div>
+                    </div>
+                    <div class="latest-blog-post-rw">
+                        <a href="" class="our-blogs">Food Presentaion</a>
+                        <h2 class="title mt-2">Latest Trends</h2>
+                        <div class="title-desc">
+                            Fresh for the best chefs curated content that showcases the community
+                            <hr>
+                        </div>
+                        <div class="auth-rw post_by">
+                            <div class="row">
+                                <div class="col-2 p-0" style="margin-left: 15px;">
+                                    <img src="./assets/images/team1.png" class="img-fluid" alt="image-not-found">
+                                </div>
+                                <div class="col-5 mt-1">
+                                    <span>Phonix Bekar</span>
+                                    <br>
+                                    <p>19 JAN 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="latest-blog-img mt-5">
+                            <img src="./assets/images/trend.png" class="img-fluid" alt="image not found">
+                        </div>
+                        <a href="" class="our-blogs ">LATEST TRENDS</a>
+                        <h2 class="title">Latest Blog Posts</h2>
+                        <div class="title-desc">
+                            Fresh for the best chefs curated content that showcases the community
+                            <hr>
+                        </div>
+                        <div class="auth-rw post_by">
+                            <div class="row">
+                                <div class="col-2 p-0" style="margin-left: 15px;">
+                                    <img src="./assets/images/team1.png" class="img-fluid" alt="image-not-found">
+                                </div>
+                                <div class="col-5 mt-1">
+                                    <span>Phonix Bekar</span>
+                                    <br>
+                                    <p>19 JAN 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="desktop-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="assets/images/logo-gold.png" alt="Logo" class="logo footer-logo">
+                </div>
+                <div class="col-lg-6">
+                    <div class="social-icon">
+                        <a href="javascript:void(0);"><i class="bi bi-instagram"></i></a>
+                        <a href="javascript:void(0);"><i class="bi bi-linkedin"></i></a>
+                        <a href="javascript:void(0);"><i class="bi bi-facebook"></i></a>
+                        <a href="javascript:void(0);"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <h4>Chef a porter</h4>
+                    <ul>
+                        <li><a href="/becomeapatron.html">Become a Patron</a></li>
+                        <li><a href="/corporatebooking.html">Corporate Bookings</a></li>
+                        <li><a href="/gift-cards.html">Gift Cards</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h4>Experiences</h4>
+                    <ul>
+                        <li><a href="/privee.html">Privee</a></li>
+                        <li><a href="/supper-club.html">Supper Clubs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/about-us.html">About Us</a></li>
+                        <li><a href="javascript:void(0);">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h4>Join Us</h4>
+                    <ul>
+                        <li><a href="/joinchef.html">as Chef</a></li>
+                        <li><a href="/becomepartner.html">as Sponsor Partner</a></li>
+                        <li><a href="javascript:void(0);">as Vendor</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4>Reach out to us</h4>
+                    <form action="" accept-charset="UTF-8" method="get">
+                        <div class="input-group">
+                            <input type="email" name="search" id="email-address" value=""
+                                placeholder="Your email address" class="form-control">
+                            <span class="input-group-btn">
+                                <input type="button" name="commit" value="Submit" class="btn btn-primary"
+                                    data-disable-with="Search">
+                            </span>
+                        </div>
+                    </form>
+                    <ul>
+                        <li><a href="/contact-us.html">Contact Us</a></li>
+                        <li><a href="mailto:reservations@chefsaporter.com.">reservations@chefsaporter.com.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="mobile-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="footer-mobile-links">
+                        <li><a href="javascript:void(0);">FAQs</a></li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                Privacy Policy
+                        </li>
+                        <li><a href="javascript:void(0);">T&C</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scedule Call Modal -->
+    <div class="modal fade schedule" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Schedule a call</h5>
+                    <button type="button" data-bs-dismiss="modal" aria-label="Close" class="close"><i
+                            class="bi bi-x-lg"></i></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form action="" class="needs-validation" novalidate>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-md-12 mb-3">
+                                            <label for="day">Day</label>
+                                            <input type="text" class="form-control" id="day" required />
+                                            <span class="arrow_span"></span>
+                                            <div class="invalid-feedback">Select Day</div>
+                                        </div>
+                                        <div class="col-md-12 mb-3  ">
+                                            <label for="timepicker1">Time</label>
+                                            <div class="input-group bootstrap-timepicker timepicker">
+                                                <input id="timepicker1" type="text" class="form-control input-small">
+                                                <span class="arrow_span arrow1"></span>
+                                            </div>
+                                            <div class="invalid-feedback">Select time</div>
+                                        </div>
+                                        <div class="col-md-12 mb-3">
+                                            <label for="contact-number">Contact Number</label>
+                                            <div class="form-group country">
+                                                <span class="country-code">+91 <i class="bi bi-chevron-down"></i></span>
+                                                <input type="tel" class="form-control" id="contact-number"
+                                                    placeholder="10 digit number" value="" required>
+                                            </div>
+                                            <div class="invalid-feedback">Incorrect Mobile Number</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label for="query">Write your query below</label>
+                                            <textarea id="validationCustom04 query" class="form-control" maxlength="500"
+                                                placeholder="Eg. Menu, Decor, Cancellation  " required></textarea>
+                                            <div class="invalid-feedback">Please enter text</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button class="btn btn-primary" type="submit">Apply</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- script -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/timepicker@1.14.0/jquery.timepicker.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/custome.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.my-select').selectpicker();
+        });
+        $(document).ready(function () {
+            $("#indate").datepicker({
+                dateFormat: "D,d M",
+                dayNames: ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"],
+            });
+            $("#indate").datepicker('setDate', 'today');
+            $("#day").datepicker({
+                dateFormat: "D,d M",
+                dayNames: ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"],
+            });
+            $("#day").datepicker('setDate', 'today');
+            $('#timepicker1').timepicker({ template: 'dropdown' });
+            $('#timepicker1').timepicker('setTime', new Date());
+        });
+    </script>
+</body>
+
+</html>
