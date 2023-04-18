@@ -18,19 +18,20 @@ $(document).ready(function () {
         autoplayHoverPause: true,
         responsive: {
             0: {
-                items: 2,
+                items: 1,
                 nav: false,
                 touchDrag:false,
                 mouseDrag:false,
                 pullDrag: false, 
-                freeDrag: false
+                freeDrag: false,
+                margin: 20, 
             },
             600: {
                 items: 3
             },
             1000: {
                 items: 3,
-                margin: 20,
+                margin: 15,
             }
         }
     })
